@@ -1,4 +1,6 @@
 <?php
+/** WAHYU ARIF P **/
+/** LAST UPDATE : 03 April 2019 17.35 **/
 
 echo "List \t\t: ";
 $list = trim(fgets(STDIN));
