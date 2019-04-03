@@ -3,7 +3,7 @@
 # USAGE
 php run.php
 
-#Note
+# Note
 Copy your email to list.txt
 
-* support email dot trick.
+support email dot trick.
