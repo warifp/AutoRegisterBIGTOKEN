@@ -5,8 +5,11 @@
 echo "List \t\t: ";
 $list = trim(fgets(STDIN));
 
-echo "Refferal \t\t: ";
+echo "Refferal \t: ";
 $reff = trim(fgets(STDIN));
+
+echo "Delay \t\t: ";
+$delay = trim(fgets(STDIN));
 
 $file = file_get_contents("$list");
 $data = explode("\n",$file);
@@ -37,6 +40,7 @@ for($a=1;$a<count($data);$a++){
     echo "\e[1;92m$a. Done Register Email => $email\e[0m\n";
     print_r($obj);
     echo "\n";
+    sleep($delay);
     curl_close($ch); 
 }
 ?>
