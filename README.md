@@ -11,5 +11,5 @@ support email dot trick.
 # Donate
 > Paypal : paypal.me/wahyuarifpurnomo
 
-> OVO\t: 087719090011
+> OVO    : 087719090011
 Thankyou brother :')
