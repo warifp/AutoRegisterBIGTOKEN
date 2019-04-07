@@ -2,6 +2,14 @@
 /** WAHYU ARIF P **/
 /** LAST UPDATE : 03 April 2019 17.35 **/
 
+echo "
+########################################
+Jangan lupa donasi!\n
+> Paypal : paypal.me/wahyuarifpurnomo\n
+> OVO\t: 087719090011\n
+Terimakasih banyak yang sudah donasi :')
+########################################\n\n";
+
 echo "List \t\t: ";
 $list = trim(fgets(STDIN));
 
