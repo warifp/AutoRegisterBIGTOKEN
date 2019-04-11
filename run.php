@@ -1,8 +1,9 @@
 <?php
 /** WAHYU ARIF P **/
-/** LAST UPDATE : 03 April 2019 17.35 **/
+/** LAST UPDATE : 09 April 2019 16.35 **/
 
 echo "
+###BIG TOKEN REGISTER FILE NEW VERSION##
 ########################################
 Jangan lupa donasi!\n
 > Paypal : paypal.me/wahyuarifpurnomo\n
@@ -25,14 +26,14 @@ $data = explode("\n",$file);
 for($a=1;$a<count($data);$a++){
     $data1 = explode("|",$data[$a]);
     $email = $data1[0];
-    $post = "email=$email&password=%40Aq123456&referral_id=$reff&monetize=1";
+    $post = "password=Kontol123!&monetize=1&referral_id=$reff&email=$email";
     $arr = array("\r"," ");
     $headers = array();
-    $headers[] = "content-type: application/x-www-form-urlencoded";
-    $headers[] = "Accept-Encoding: gzip";
     $headers[] = "Host: api.bigtoken.com";
-    $headers[] = "user-agent: Redmi 5A_7.1.2_1.0.6";
-    $headers[] = "accept: application/json";
+    $headers[] = "X-Client-ID: WW1GelpUWTBPbnBFY1hBMFVrTnNWbUZ4VTNsbFVHSnVlV3BTWm1rd1JrWkhlbHBxWm5OaFVsWjJhM3BhUkhocloyczk=";
+    $headers[] = "user-agent: BIGtoken/1.0.6.2 Dalvik/2.1.0 Linux; U; Android 8.1.0; 4b0e5fe4484d2ea6 Build/25";
+    $headers[] = "Accept: application/json";
+    $headers[] = "Content-Type: application/x-www-form-urlencoded";
     $url = "https://api.bigtoken.com/signup";
     $h = explode("\n",str_replace($headers,"",""));
 
